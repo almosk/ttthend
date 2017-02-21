@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: "GillSans-Bold";
+  src: url("fonts/GillSans-Bold.eot");
+  src: url("fonts/GillSans-Bold.eot?#iefix")format(embedded-opentype);
+  url: ("fonts/GillSans-Bold.woff") format("woff")
+  url: ("fonts/GillSans-Bold.ttf") format("ttf")
+  font-style: normal;
+  font-weight: normal;
+}

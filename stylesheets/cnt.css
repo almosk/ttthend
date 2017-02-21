@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black; /* Цвет текста */
+}
+
+h1 {
+  line-height: 60%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.big {
+  width: 100vw;
+  height: 650px;
+  position: relative;
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;*/
+  /*background-image: url(../imgs/FANCY.jpg);
+  background-size: contain;*/
+}
+
+.picture {
+  height: 650px;
+  width: 1000px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url(../imgs/img1.png);
+}
+
+.text {
+  position: absolute;
+  right: 300px;
+  height: 650px;
+  z-index: 1;
+  display: block;
+}
+
+.text > a {
+  margin-top: 380px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  display: block;
+
+}
+
+.text > p {
+  font-family: "GillSans-Bold";
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.logocont {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 100px;
+  height: 650px;
+  z-index: 1;
+}
+
+.contacts {
+    display: block;
+    height: 189px;
+    width: 78px;
+    background-image: url(../imgs/fonts.png);
+    background-size: cover;
+    margin-top: 287px;
+    z-index: 99999999;
+    cursor: pointer;
+  }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url(../imgs/logo.png);
+  background-size: cover;
+}
+
+.all{
+  width: 100vw;
+  height: 460px;
+  margin: auto;
+  /*background-color: #fff763;*/
+  /*background-image: url(../imgs/buttons.png);*/
+  display: inline-block;
+  position: relative;
+}
+
+.sec {
+  position: absolute;
+  width: 50%;
+  height: 460px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all>iframe {
+  margin: auto;
+}
+
+.small1 {
+  background-color: #fff763;
+}
+
+.small2 {
+  background-color: #fdec5d;
+  right: 0;
+}
+
+.logocont2 {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 100px;
+  height: 460px;
+  z-index: 1;
+}
+
+.logofb {
+  width: 85px;
+  height: 70px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.continfo {
+  display: block;
+  width: 240px;
+  height: 250px;
+  background-color: #ffff66;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  margin-top: -230px;
+  margin-left: 20px;
+  font-family: 'GillSans-Bold', sans-serif;
+  padding: 20px;
+  z-index: 2;
+}
+
+.net {
+  display: none;
+}
