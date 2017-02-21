@@ -40,6 +40,7 @@ p {
   background-image: url(../imgs/img1.png);
 }
 
+
 .text {
   position: absolute;
   right: 300px;
@@ -152,7 +153,15 @@ p {
   padding: 20px;
   z-index: 2;
 }
-
+/*.new {
+  height: 496px;
+  width: 1554px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url(../imgs/new.png);
+}*/
 .net {
   display: none;
 }
