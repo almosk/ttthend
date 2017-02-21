@@ -151,8 +151,9 @@ p {
 .logofb {
   width: 85px;
   height: 70px;
-  bottom: 20px;
+  bottom: 5px;
   position: absolute;
+  margin: auto;
 }
 
 .continfo {
