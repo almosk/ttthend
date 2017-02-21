@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(../BebasNeueBold.otf);
+}
+
+@font-face {
+  font-family: GillSans-Bold;
+  src: url(../GillSans_2.ttc);
+}
 
 * {
   box-sizing: border-box;
+
 }
 
 a {
@@ -51,7 +61,8 @@ p {
 
 .text > a {
   margin-top: 380px;
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: BebasNeueBold;
   font-size: 80px;
   display: block;
 
@@ -141,7 +152,7 @@ p {
 
 .continfo {
   display: block;
-  width: 240px;
+  width: 280px;
   height: 250px;
   background-color: #ffff66;
   font-size: 20px;
